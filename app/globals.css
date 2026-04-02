@@ -246,6 +246,7 @@ main {
 .link-row a,
 .link-list a {
   padding: 10px 14px;
+  margin-top: 10px;
   border: 1px solid var(--line);
   border-radius: 12px;
   background: rgba(148, 163, 184, 0.06);

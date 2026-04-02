@@ -66,7 +66,10 @@ export const projects = [
       'Architecture scalable microservices',
       'Réduction latence sur requêtes critiques',
     ],
-    links: [{ label: 'Voir le site', href: 'https://www.autohub.mg' }],
+    links: [
+      { label: 'Voir le site', href: 'https://www.autohub.mg' },
+      { label: '📱 Télécharger l’app', href: '/Autohub-1.0.0-universal.apk' }
+    ],
   },
   {
     title: 'HCL & CEA',
