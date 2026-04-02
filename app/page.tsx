@@ -1,4 +1,4 @@
-import { education, experiences, profile, projects, stack, stats, strengths } from '@/components/data'
+import { education, experiences, profile, projects, stack, stats, strengths, architectures } from '@/components/data'
 import { motion } from 'framer-motion'
 
 const stackEntries = Object.entries(stack)
@@ -49,9 +49,23 @@ export default function HomePage() {
                 Me contacter
               </a>
             </div>
+            <div className="cta-row secondary-row">
+              <a href="/cv.pdf" target="_blank">
+                👁️ Voir mon CV
+              </a>
+              <a href="/cv.pdf" download>
+                📄 Télécharger mon CV
+              </a>
+            </div>
             <p className="availability">{profile.availability}</p>
           </div>
 
+          <div className="hero-photo">
+            <img src="/pdp.jpg" alt="Herizo" />
+          </div>
+
+        </div>
+        <div className="container">
           <div className="hero-card card">
             <div className="status-pill">{profile.yearsOfExperience}</div>
             <h2>Expertise orientée produit et qualité logicielle</h2>
@@ -67,6 +81,7 @@ export default function HomePage() {
             </ul>
           </div>
         </div>
+        
       </section>
 
       <section className="section">
@@ -147,6 +162,15 @@ export default function HomePage() {
                     <li key={highlight}>{highlight}</li>
                   ))}
                 </ul>
+                {project.metrics && (
+                  <div className="metrics">
+                    {project.metrics.map((metric) => (
+                      <span key={metric} className="metric-badge">
+                        {metric}
+                      </span>
+                    ))}
+                  </div>
+                )}
                 {project.links.length > 0 && (
                   <div className="link-row">
                     {project.links.map((link) => (
@@ -156,6 +180,36 @@ export default function HomePage() {
                     ))}
                   </div>
                 )}
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section" id="architecture">
+        <div className="container">
+          <span className="eyebrow">Architectures</span>
+          <h2>Des architectures pensées pour la performance et la scalabilité</h2>
+
+          <div className="projects-grid">
+            {architectures.map((arch) => (
+              <article key={arch.title} className="card project-card">
+                
+                <div className="project-header">
+                  <div>
+                    <h3>{arch.title}</h3>
+                    <p className="project-subtitle">{arch.subtitle}</p>
+                  </div>
+                </div>
+
+                <p>{arch.description}</p>
+
+                <ul className="feature-list compact">
+                  {arch.highlights.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+
               </article>
             ))}
           </div>

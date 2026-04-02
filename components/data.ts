@@ -61,6 +61,11 @@ export const projects = [
       'Base MongoDB adaptée aux usages catalogue, annonces et transactions',
       'Déploiement et livraison continue avec Docker et GitLab CI/CD',
     ],
+    metrics: [
+      '+60% performance API',
+      'Architecture scalable microservices',
+      'Réduction latence sur requêtes critiques',
+    ],
     links: [{ label: 'Voir le site', href: 'https://www.autohub.mg' }],
   },
   {
@@ -74,6 +79,9 @@ export const projects = [
       'Évolutions frontend en Angular et Vue.js avec amélioration performance',
       'Mise en place d’APIs REST, services WCF et composants microservices',
       'Renforcement de la qualité et de la sécurité et de la couverture de code via NUnit, SonarQube, GitLab et Azure DevOps',
+    ],
+    metrics: [
+      'Architecture scalable microservices',
     ],
     links: [],
   },
@@ -90,6 +98,10 @@ export const projects = [
       'Correction de bugs critiques en environnement de production',
       'Analyse fonctionnelle et technique via JIRA',
       'Travail en environnement Agile/Scrum',
+    ],
+    metrics: [
+      '+40% performance API',
+      'Réduction latence sur requêtes critiques',
     ],
     links: [],
   },
@@ -134,5 +146,36 @@ export const education = [
     title: 'Master en Génie Logiciel et Base de données',
     school: 'ENI Madagascar',
     period: '2019',
+  },
+]
+
+export const architectures = [
+  {
+    title: 'AutoHub',
+    subtitle: 'Architecture Microservices',
+    description:
+      'Architecture orientée services pour une plateforme scalable de vente et location de véhicules.',
+    highlights: [
+      'API Gateway centralisée',
+      'Services indépendants (User, Vehicle, Booking)',
+      'Backend Node.js avec APIs REST',
+      'MongoDB (NoSQL)',
+      'CI/CD GitLab',
+      'Docker pour le déploiement',
+    ],
+  },
+  {
+    title: 'Applications .NET',
+    subtitle: 'Architecture microservices',
+    description:
+      'Architecture robuste pour des applications critiques dans la santé et l’industrie.',
+    highlights: [
+      'Architecture N-tier et microservices',
+      'APIs REST en ASP.NET Core',
+      'Entity Framework + SQL Server',
+      'Frontend Angular / Vue.js',
+      'Tests unitaires avec NUnit',
+      'Qualité code avec SonarQube',
+    ],
   },
 ]
