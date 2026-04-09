@@ -70,7 +70,7 @@ export default function HomePage() {
             <div className="status-pill">{profile.yearsOfExperience}</div>
             <h2>Expertise orientée produit et qualité logicielle</h2>
             <p>
-              Développement fullstack, architecture de services, performance backend,
+              Développement fullstack et mobile, architecture de services, performance backend,
               intégration continue et expérience utilisateur sur des applications métier.
             </p>
             <ul className="mini-list">
@@ -99,13 +99,13 @@ export default function HomePage() {
         <div className="container split-grid">
           <div>
             <span className="eyebrow">À propos</span>
-            <h2>Un profil fullstack .NET construit sur des projets concrets</h2>
+            <h2>Un profil fullstack .NET et mobile construit sur des projets concrets</h2>
             <p>
               Basé à Lyon, j’évolue depuis plusieurs années sur des environnements techniques exigeants,
               avec une approche orientée robustesse, lisibilité du code et valeur métier.
             </p>
             <p>
-              J’aime intervenir autant sur le backend que sur le frontend, structurer des architectures propres,
+              J’aime intervenir autant sur le backend que sur le frontend sur des projets mobile, structurer des architectures propres,
               faire évoluer des applications existantes et construire des produits utiles à fort potentiel.
             </p>
           </div>

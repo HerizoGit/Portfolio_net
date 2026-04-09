@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Herizo Andrianarijaona',
-  role: 'Ingénieur Fullstack .NET',
+  role: 'Ingénieur Fullstack .NET et mobile',
   location: 'Lyon, France',
   yearsOfExperience: '6 ans d’expérience',
   summary:
@@ -11,7 +11,7 @@ export const profile = {
   cvLabel: 'CV sur demande',
   socialLinks: [
     {
-      label: 'AutoHub',
+      label: 'Autohub',
       href: 'https://www.autohub.mg',
     },
     {
@@ -50,11 +50,11 @@ export const stack = {
 
 export const projects = [
   {
-    title: 'AutoHub',
-    subtitle: 'Plateforme web et mobile de vente et location de véhicules',
-    period: 'Janvier 2026 — Aujourd’hui',
+    title: 'Autohub et vadi',
+    subtitle: 'Plateforme web et mobile de vente et location de véhicules et application de rencotre',
+    period: '',
     description:
-      'Projet personnel conçu pour centraliser la vente et la location de voitures et motos dans une expérience moderne, performante et scalable.',
+      'Projet personnel conçu pour centraliser la vente et la location de voitures et motos dans une expérience moderneet aussi d’une rencontre entre deux personnes, performante et scalable.',
     highlights: [
       'Backend Node.js avec architecture orientée services et APIs REST',
       'Frontend React.js pour l’application web et React Native pour le mobile',
@@ -68,7 +68,8 @@ export const projects = [
     ],
     links: [
       { label: 'Voir le site', href: 'https://www.autohub.mg' },
-      { label: '📱 Télécharger l’app', href: '/Autohub-1.0.0-universal.apk' }
+      { label: '📱 Télécharger l’app autohub', href: '/Autohub-1.0.0-universal.apk' },
+      { label: '📱 Télécharger l’app de rencontre vadi', href: '/Vadi-1.0.0-universal.apk' }
     ],
   },
   {
@@ -154,7 +155,7 @@ export const education = [
 
 export const architectures = [
   {
-    title: 'AutoHub',
+    title: 'Autohub',
     subtitle: 'Architecture Microservices',
     description:
       'Architecture orientée services pour une plateforme scalable de vente et location de véhicules.',
