@@ -259,7 +259,7 @@ export default function HomePage() {
             <span className="eyebrow">Contact</span>
             <h2>Parlons de votre prochain projet</h2>
             <p>
-              Vous recherchez un profil .NET capable d’intervenir sur l’architecture, le backend,
+              Vous recherchez un profil .NET ou mobile capable d’intervenir sur l’architecture, le backend,
               le frontend et la qualité logicielle ? Échangeons.
             </p>
             <div className="link-list">

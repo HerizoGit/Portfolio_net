@@ -4,7 +4,7 @@ export const profile = {
   location: 'Lyon, France',
   yearsOfExperience: '6 ans d’expérience',
   summary:
-    'Je conçois des applications web robustes, performantes et sécurisées, avec un fort focus sur la qualité de code, les architectures modernes et l’impact produit.',
+    'Je conçois des applications web robustes, performantes et sécurisées, avec un fort focus sur la qualité de code, les architectures modernes et l’impact produit intégrant Apache Kafka pour gérer les flux d’événements en temps réel.',
   tagline:
     'C# · .NET · Angular · Vue.js · Microservices · Azure DevOps',
   availability: 'Disponible pour de nouvelles opportunités .NET / Fullstack.',
@@ -54,10 +54,11 @@ export const projects = [
     subtitle: 'Plateforme web et mobile de vente et location de véhicules et application de rencotre',
     period: '',
     description:
-      'Projet personnel conçu pour centraliser la vente et la location de voitures et motos dans une expérience moderneet aussi d’une rencontre entre deux personnes, performante et scalable.',
+      'Projet personnel conçu pour centraliser la vente et la location de voitures et motos dans une expérience moderneet aussi d’une rencontre entre deux personnes, performante et scalable intégrant Apache Kafka pour gérer les flux d’événements en temps réel.',
     highlights: [
       'Backend Node.js avec architecture orientée services et APIs REST',
       'Frontend React.js pour l’application web et React Native pour le mobile',
+      'Intégration de Apache Kafka pour gérer les événements métiers en temps réel',
       'Base MongoDB adaptée aux usages catalogue, annonces et transactions',
       'Déploiement et livraison continue avec Docker et GitLab CI/CD',
     ],
@@ -65,6 +66,7 @@ export const projects = [
       '+60% performance API',
       'Architecture scalable microservices',
       'Réduction latence sur requêtes critiques',
+      'Gestion des événements métiers en temps réel et communication asynchrone entre microservices',
     ],
     links: [
       { label: 'Voir le site', href: 'https://www.autohub.mg' },
@@ -164,6 +166,7 @@ export const architectures = [
       'Services indépendants (User, Vehicle, Booking)',
       'Backend Node.js avec APIs REST',
       'MongoDB (NoSQL)',
+      'Evènement en temps réel et communication asynchrone entre service',
       'CI/CD GitLab',
       'Docker pour le déploiement',
     ],
