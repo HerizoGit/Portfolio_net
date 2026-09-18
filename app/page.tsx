@@ -1,5 +1,4 @@
-import { education, experiences, profile, projects, stack, stats, strengths, architectures } from '@/components/data'
-import { motion } from 'framer-motion'
+import { architectures, education, experiences, profile, projects, stack, stats, strengths } from '@/components/data'
 
 const stackEntries = Object.entries(stack)
 
@@ -20,7 +19,8 @@ const jsonLd = {
     'Angular',
     'Vue.js',
     'Microservices',
-    '',
+    'OpenAI',
+    'Générative AI',
     'SQL Server',
     'Azure DevOps',
   ],
