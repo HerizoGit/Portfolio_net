@@ -4,9 +4,9 @@ export const profile = {
   location: 'Lyon, France',
   yearsOfExperience: '6 ans d’expérience',
   summary:
-    'Je conçois des applications web robustes, performantes et sécurisées, avec un fort focus sur la qualité de code, les architectures modernes et l’impact produit intégrant Apache Kafka pour gérer les flux d’événements en temps réel.',
+    'Je conçois des applications web robustes, performantes et sécurisées, avec un fort focus sur la qualité de code, les architectures modernes et l’impact produit intégrant Apache Kafka pour gérer les flux d’événements en temps réel et integre aussi l’OpenAI et la Generative AI dans ces projets',
   tagline:
-    'C# · .NET · Angular · Vue.js · Microservices · Azure DevOps',
+    'C# · .NET · Angular · Vue.js · Microservices · Azure DevOps · LLM · prompt engineering · embeddings · fonctionnalités intelligentes',
   availability: 'Disponible pour de nouvelles opportunités .NET / Fullstack.',
   cvLabel: 'CV sur demande',
   socialLinks: [
@@ -37,6 +37,7 @@ export const strengths = [
   'Développement frontend moderne avec Angular et Vue.js',
   'Architecture microservices et découpage métier',
   'Optimisation SQL Server et Entity Framework',
+  'Intégration d’API OpenAI pour les fonctionnalités basées sur de l’IA générative',
   'Qualité logicielle avec NUnit, SonarQube et revues de code',
   'CI/CD avec GitLab et Azure DevOps',
 ]
@@ -46,19 +47,21 @@ export const stack = {
   frontend: ['Angular', 'Vue.js', 'React.js', 'React Native'],
   data: ['SQL Server', 'MongoDB'],
   devops: ['Azure DevOps', 'GitLab CI/CD', 'Docker', 'SonarQube', 'NUnit'],
+  GenerativeAI: ['OpenAI', 'Embeddings & Vector Search', 'LLM / Generative AI', 'Prompt Engineering', 'AI assisted development', 'AI powered applications' ],
 }
 
 export const projects = [
   {
-    title: 'Autohub et vadi',
+    title: 'Autohub et nona',
     subtitle: 'Plateforme web et mobile de vente et location de véhicules et application de rencotre',
     period: '',
     description:
-      'Projet personnel conçu pour centraliser la vente et la location de voitures et motos dans une expérience moderneet aussi d’une rencontre entre deux personnes, performante et scalable intégrant Apache Kafka pour gérer les flux d’événements en temps réel.',
+      'Projet en freelance conçu pour centraliser la vente et la location de voitures et motos dans une expérience moderne et aussi d’une rencontre entre deux personnes, performante et scalable intégrant Apache Kafka pour gérer les flux d’événements en temps réel et qui integre de l’IA dans ces fonctionnalitées.',
     highlights: [
       'Backend Node.js avec architecture orientée services et APIs REST',
       'Frontend React.js pour l’application web et React Native pour le mobile',
       'Intégration de Apache Kafka pour gérer les événements métiers en temps réel',
+      'Intégration de services et APIs d’IA dans des applications Node.js et React pour automatiser les processus et développer des fonctionnalités intelligentes',
       'Base MongoDB adaptée aux usages catalogue, annonces et transactions',
       'Déploiement et livraison continue avec Docker et GitLab CI/CD',
     ],
@@ -66,12 +69,12 @@ export const projects = [
       '+60% performance API',
       'Architecture scalable microservices',
       'Réduction latence sur requêtes critiques',
+      'Automatisation des processus et de développement des fonctionnalités par IA',
       'Gestion des événements métiers en temps réel et communication asynchrone entre microservices',
     ],
     links: [
       { label: 'Voir le site', href: 'https://www.autohub.mg' },
-      { label: '📱 Télécharger l’app autohub', href: '/Autohub-1.0.0-universal.apk' },
-      { label: '📱 Télécharger l’app de rencontre vadi', href: '/Vadi-1.0.0-universal.apk' }
+      { label: 'App Store Autohub', href: 'https://apps.apple.com/fr/app/autohub/id6773581391' },
     ],
   },
   {
@@ -157,7 +160,7 @@ export const education = [
 
 export const architectures = [
   {
-    title: 'Autohub',
+    title: 'Autohub, nona',
     subtitle: 'Architecture Microservices',
     description:
       'Architecture orientée services pour une plateforme scalable de vente et location de véhicules.',
@@ -167,6 +170,9 @@ export const architectures = [
       'Backend Node.js avec APIs REST',
       'MongoDB (NoSQL)',
       'Evènement en temps réel et communication asynchrone entre service',
+      'Automatisation des développements des fonctionnalités par IA',
+      'Tests unitaires avec Jest',
+      'Qualité code avec ESLint',
       'CI/CD GitLab',
       'Docker pour le déploiement',
     ],
