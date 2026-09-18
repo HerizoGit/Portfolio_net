@@ -20,6 +20,7 @@ const jsonLd = {
     'Angular',
     'Vue.js',
     'Microservices',
+    '',
     'SQL Server',
     'Azure DevOps',
   ],

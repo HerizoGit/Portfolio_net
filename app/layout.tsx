@@ -4,7 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Herizo Andrianarijaona | Ingénieur Fullstack .NET',
   description:
-    'Portfolio de Herizo Andrianarijaona, ingénieur fullstack .NET basé à Lyon, spécialisé en C#, .NET, Angular, Vue.js, microservices et qualité logicielle.',
+    'Portfolio de Herizo Andrianarijaona, ingénieur fullstack .NET basé à Lyon, spécialisé en C#, .NET, Angular, Vue.js, microservices, integration OpenAI, générative AI et qualité logicielle.',
   openGraph: {
     title: 'Herizo Andrianarijaona | Ingénieur Fullstack .NET',
     description:
